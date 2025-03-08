@@ -77,10 +77,29 @@ body {
   -ms-scroll-chaining: none;
   overscroll-behavior: none;
 }
+.con{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+}
+.con h4{
+  font-size: 20px;
+}
+.con h4 span{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
 @media screen and (max-width: 768px) {
   html,
   body {
     font-size: 15px;
+  }
+  .con{
+    display: inline-block;
+    margin: 0rem 1.1rem;
+  }
+  .con h4{
+    padding: 20px 0px;
   }
 }
 
