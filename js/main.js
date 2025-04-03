@@ -9,6 +9,7 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
 
 ------------------------------------------- */
 
+
 $(function () {
 
     "use strict";
@@ -1050,3 +1051,4 @@ $(function () {
     });
 
 });
+
